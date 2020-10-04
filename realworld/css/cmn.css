@@ -1,0 +1,77 @@
+﻿body {margin:0;padding:0;font-family:'gel','helvetica','Arial';-webkit-font-smoothing: antialiased;vertical-align: baseline;
+}
+
+h1, h2, h3, h4, h5, h6,p, ul{list-style:none;padding:0;margin:0;font-weight:400;}
+img{border:0;width:100%;height:auto;}
+
+
+
+/*border:solid 1px #000;*/
+#divHeader{position:fixed;z-index:2;background-color:#fff;width:100%;border-bottom:solid 1px #cdcdcd;}
+#divHeader div{width:96%;overflow:auto;padding:16px 0px 20px 0px;}
+.aLogo{display:inline-block;float:left;width:205px;text-decoration:none;}
+.ulNav{display:inline-block;float:right;padding-top:8px;}
+.ulNav li{display:inline-block;padding:0 0 0 40px;}
+.ulNav li a{webkit-transition: all .4s ease;
+-moz-transition: all .4s ease;
+-o-transition: all .4s ease;
+transition: all .4s ease;font-size:15px;color:#000;text-decoration:none;}
+
+.ulNav li a:hover 
+{
+	color: #cc5f00;
+	
+}
+#imgHBnrs{margin-top:63px}
+
+.bgruler{width:100%;height:20px;background:#ffffff url("../image/bg-ruler.png") repeat top;}
+#mar20 {
+height:20px;
+}
+/*h1{font-size: 3em;color:#000;padding:24px 0 0 0; font-weight:300;}*/
+h1{font-size: 1.4em;color:#000;padding:32px 0 0 0; font-weight:300;}
+p{font-weight:400;-webkit-font-smoothing: antialiased;font-family:Open Sans;width:80%}
+
+.divprov{background-color:#f7f7f7;padding:36px 0 0px 0;margin-top:30px;}
+
+
+	.ulprovide{width:100%;overflow:auto}
+	.ulprovide li{width:232px;height:205px;font-weight:200;text-align:left;float:left;padding:0 0 20px 1.6%}
+
+
+.ulprovide li div{position:relative;}
+.ulprovide li div img{position:absolute;}
+.ulprovide li div h2{position:absolute;color:#fff;top:134px;left:10px;text-shadow: 1px 1px 1px #000;font-weight:300;}
+
+#txtprovide{font-size: 3em;margin-top:48px;height:106px}
+
+.divWhyHo{margin:50px 0 0 0;}
+  .divWhyHo h2{font-size: 2em;font-weight:400;}
+.divWhyHo p{font-size:14px;font-weight:200;padding:30px 0 0px 0;}
+    .divWhyHo div { width:80%;
+    }
+h3,h4 {
+    display:inline-block;font-weight:400;-webkit-font-smoothing: antialiased;font-family:Open Sans;font-size:14px;
+}
+.divstep{padding:50px 0px 50px 0px;}
+.divstep h2{font-size: 2em;font-weight:200;padding:30px 12px 0px 12px;border-top:solid 1px #cdcdcd;}
+.divstep p{font-size:14px;font-weight:400;padding:0 0 20px 0;}
+#HomeTymeSteps{font-size:16px;font-weight:600;}
+.divstep img{width:33%;}
+
+.divPaint{margin-top:26px;background:#fff url("../image/colors.jpg") no-repeat center right;height:427px;width:80%}
+.divPaint h2{font-size: 2.4em;font-weight:300;padding-top:120px;}
+.divPaint a{background-color:#cc5f00;display:inline-block;text-align:center;font-size:12px;padding:10px 15px;color:#fff;margin-top:30px;}
+
+
+.divFooter{background-color:#333;padding:40px 0;margin-top:20px;}
+.divFooter img{width:100px}
+.divFooter h2{color:#fff;padding:12px 0px 10px 0px;}
+.divFooter span{color:#fff;font-weight:300;}
+.divFooter span span{display:inline-block;padding:20px 30px; color:#cc5f00;}
+
+.divEnquiry{height:800px}
+
+
+.divcolarge{color:#666;padding:10px 0;font-family:open Sans;font-size:13px;word-spacing:1px}
+.divcolarge a{color:#cc5f00;text-decoration:none;}
